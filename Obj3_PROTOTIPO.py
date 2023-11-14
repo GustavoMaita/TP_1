@@ -195,7 +195,7 @@ def cifrado_atbash(cuadroUsuario):
                     cifrado[contador] = mayuscula.upper()
             else:
                 cifrado[contador] = elemento  #el elemento no es caracter ni numero, se deja igual 
-                contador +=1 #aumento del indice de la lista para acceder y reemplazar al elemento siguiente
+            contador +=1 #aumento del indice de la lista para acceder y reemplazar al elemento siguiente
         cifrado = "".join(cifrado) 
               
         return messagebox.showinfo("El mensaje cifrado es:",cifrado)
